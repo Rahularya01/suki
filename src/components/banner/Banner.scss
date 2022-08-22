@@ -1,0 +1,36 @@
+@import "../../styles/rwd";
+
+.banner {
+
+  &-right__side {
+    .blur-bg {
+      background-color: rgba(0, 0, 0, .4);
+      filter: blur(4px);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+    &-container {
+      max-width: 200px;
+      //max-width: 100px;
+      width: 100%;
+
+      @media (min-width: 768px) {
+        max-width: 250px;
+      }
+
+      @media (min-width: 1200px) {
+        max-width: 400px;
+      }
+    }
+
+    &-wrapper {
+      padding-bottom: calc(133 / 400 * 100%);
+      //padding-bottom: 100%;
+    }
+  }
+}
