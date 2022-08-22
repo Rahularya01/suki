@@ -40,8 +40,8 @@ const CountDown = ({ target }) => {
   });
   return (
     <div className="w-full flex flex-col justify-center items-center countdown-container">
-      <p className="countdown-title">coming soon</p>
-      <section>
+      <p className="countdown-title">reveal soon</p>
+      {/* <section>
         <ul>
           <li>
             <span className="hours time-numbers">
@@ -63,7 +63,7 @@ const CountDown = ({ target }) => {
             <p className="timeRefSeconds time-description">seconds</p>
           </li>
         </ul>
-      </section>
+      </section> */}
     </div>
   );
 };

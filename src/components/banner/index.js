@@ -138,9 +138,9 @@ const Banner = () => {
                 )}
               </div>
 
-              {/* <div className="w-full z-10">
+              <div className="w-full z-10">
                 <CountDown target={"Aug 22, 2022 19:00:00"} />
-              </div> */}
+              </div>
 
               <div className="w-full flex justify-center items-center z-10">
                 <Social />
